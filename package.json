@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
   "keywords": [
     "hello-world"
   ],
@@ -13,5 +16,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "minimist": "0.0.8"
   }
 }
