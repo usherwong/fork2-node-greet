@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var greet = require("../index.js");
+var greet = require("../index");
 var parseArgs = require("minimist");
 //console.log(greet(process.argv[2]));
 var agrst = parseArgs(process.argv.slice(2));
